@@ -1,0 +1,28 @@
+{% extends "bootstrapframe.html" %}
+
+{% block title %}
+Fakebook
+{% endblock title %}
+
+{% block css %}
+<link rel="stylesheet" type="text/css" href="/static/css/fakebook.css">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+{% endblock css %}
+
+{% block content %}
+    <div class="center">
+ <h1>How to prevent the spread of the corona virus</h1>
+</div>
+ <div class="list">
+<ul>
+        <li><i class="fa fa-sign-language"></i> Wash your hands regularly</li>
+        <li><i class="fa fa-ban"></i> Don't cough in your hand</li>
+        <li><i class="fa fa-reddit-alien"></i> Wear a mask to protect others</li>
+        <li><i class="fa fa-home"></i> Stay at home</li>
+    </ul>
+</div>
+ <br>
+ <div class="center">
+<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/lOJ8Lc-TfNg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+{% endblock content %}

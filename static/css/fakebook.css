@@ -1,0 +1,14 @@
+body {background-color: linen;
+font-family:Arial;
+}
+
+h1 {color:brown}
+
+.center {margin:auto;text-align:center
+}
+
+.list {margin:30px auto; width:330px;text-align:left
+}
+
+ul {list-style-type:none;
+line-height:2}
